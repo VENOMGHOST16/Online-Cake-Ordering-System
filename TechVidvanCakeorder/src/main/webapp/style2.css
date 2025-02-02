@@ -1,0 +1,42 @@
+.cake-shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+}
+
+.cake-block {
+    flex: 1 1 calc(25% - 20px); /* Changed from 33.333% to 25% to fit 4 blocks per row */
+    background-color: #ffffffe6;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cake-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cake-block img {
+    width: 30%; /* Adjust this as needed */
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #ff8085;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #ff6699;
+}

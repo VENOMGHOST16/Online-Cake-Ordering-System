@@ -1,0 +1,168 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+.left-div, .right-div {
+    flex: 1;
+    background-color: #ffffffe6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.left-div
+{
+    font-size: larger;
+    font-weight: 600;
+}
+.right-div
+{
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+}
+.right-div input
+{
+    padding-right: 10px;
+    border: none;
+    color: white;
+    background-color: #ff8085;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: larger;
+    font-family: 'Dancing script',cursive;
+}
+.right-div button
+{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #ffb6b9;
+    color: white;
+    border-radius: 5px;
+}
+.right-div button:hover
+{
+    background-color: #ff8085;
+    transition-duration: 0.5s;
+}
+.right-div h2 {
+    font-family: 'Pacifico', cursive;
+    color: #ff8085;
+}
+
+.register-container {
+    background-color: #ffffffe6;
+    width: 40%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #ff8085;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register-container input {
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.register-container input:focus {
+    border-color: #ff8085;
+    outline: none;
+}
+
+.register-container button {
+    background-color: #ff8085;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #ff6699;
+}
+/* ... [Rest of your CSS] ... */
+
+.baker-container {
+    background-color: #ffffffe6;
+    width: 60%;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.baker-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #ff8085;
+}
+
+.baker-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.baker-container label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.baker-container input,
+.baker-container textarea {
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.baker-container input:focus,
+.baker-container textarea:focus {
+    border-color: #ff8085;
+    outline: none;
+}
+
+.baker-container button {
+    background-color: #ff8085;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.baker-container button:hover {
+    background-color: #ff6699;
+}
+

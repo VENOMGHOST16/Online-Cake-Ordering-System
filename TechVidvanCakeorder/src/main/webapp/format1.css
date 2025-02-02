@@ -1,0 +1,44 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: #ffe5e2;
+    color: #5c5c5c;
+}
+
+.navbar {
+    background-color: #ffb6b9;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #ff8085;
+    color: white;
+}
+
+
+.content {
+    /*... other styles ...*/
+    padding-bottom: 80px;  /* Adjust depending on the height of your footer */
+}
+.footer {
+    background-color: #ff6699;
+    opacity: 0.8;
+    color: white;
+    left: 0;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;  /* to ensure it stays on top */
+}
